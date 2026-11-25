@@ -1,0 +1,15 @@
+# Données (trop lourdes, licence propre)
+*.mp4
+data/
+
+# Caractéristiques recalculables
+*.pkl
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Système
+.DS_Store
+Thumbs.db

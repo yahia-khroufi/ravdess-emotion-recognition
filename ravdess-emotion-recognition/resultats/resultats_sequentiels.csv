@@ -1,0 +1,17 @@
+modele,features,selection,accuracy,acc_std_plis,precision,rappel,f1,temps_s
+RNN,couleur,difference,0.383,0.227,0.363,0.359,0.343,41.509
+RNN,vgg,difference,0.6,0.097,0.582,0.578,0.575,69.714
+RNN,vgg+couleur,difference,0.617,0.085,0.594,0.594,0.589,66.04
+LSTM,couleur,difference,0.317,0.133,0.275,0.297,0.272,35.113
+LSTM,vgg,difference,0.567,0.162,0.535,0.531,0.527,35.337
+LSTM,vgg+couleur,difference,0.583,0.183,0.558,0.547,0.542,54.96
+GRU,couleur,difference,0.35,0.143,0.371,0.328,0.319,27.416
+GRU,vgg,difference,0.567,0.111,0.538,0.531,0.525,38.062
+GRU,vgg+couleur,difference,0.6,0.082,0.598,0.562,0.565,36.676
+Transformer,couleur,difference,0.317,0.153,0.358,0.312,0.316,70.749
+Transformer,vgg,difference,0.633,0.194,0.622,0.609,0.605,61.643
+Transformer,vgg+couleur,difference,0.633,0.194,0.618,0.609,0.605,59.692
+RNN,vgg+couleur,uniforme,0.6,0.062,0.553,0.562,0.55,44.377
+LSTM,vgg+couleur,uniforme,0.583,0.118,0.54,0.547,0.533,41.297
+GRU,vgg+couleur,uniforme,0.55,0.1,0.54,0.516,0.517,32.832
+Transformer,vgg+couleur,uniforme,0.6,0.162,0.573,0.562,0.557,59.839
